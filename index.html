@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="index.css">
+    <title>Notifications Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <!-- <a href="#" class="logo">Company</a> -->
+            <div class="nav-items">
+                <a href="#notifications" class="notification-icon" onclick="toggleNotifications()">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.wKKABPtvqyUtnWpA5-Jh2wHaHa&pid=Api&P=0&h=180"
+                        alt="Notifications">
+                    
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="notifications" class="hidden">
+        <header>
+            <h1>Notification<span class="plural">s</span> <span class="count">3</span></h1>
+            <button type="button" class="mark-all-read">Mark all as read</button>
+        </header>
+        <a href="#" class="unread">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.jAEnONxlpsGr8oF6yPHI9QHaHZ&pid=Api&P=0&h=180"
+                alt="Mark Webber">
+            <div class="text-content">
+                <p><span class="user">Mark Webber</span> reacted to your recent post <span class="activity">My first
+                        Office day</span> <span class="dot"></span></p>
+                <p class="time">1m ago</p>
+            </div>
+        </a>
+        <a href="#" class="unread">
+            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg"
+                alt="Angela Gray">
+            <div class="text-content">
+                <p><span class="user">Angela Gray</span> followed you <span class="dot"></span></p>
+                <p class="time">5m ago</p>
+            </div>
+        </a>
+        <a href="#" class="unread">
+            <img src="https://freepngimg.com/thumb/businessman/18-businessman-png-image.png" alt="Jacob Thompson">
+            <div class="text-content">
+                <p><span class="user">Jacob Thompson</span> has joined your group <span class="activity chess">GR
+                        Netwok</span> <span class="dot"></span></p>
+                <p class="time">1 day ago</p>
+            </div>
+        </a>
+        <a href="#">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.Blj2M36K5WYTyNd6v6Jz0QHaJf&pid=Api&P=0&h=180"
+                alt="Rizky Hasanuddin">
+            <div class="text-content">
+                <p><span class="user">Rizky Hasanuddin</span> sent you a private message</span></p>
+                <p class="time">5 days ago</p>
+                <p class="private">Hello, thanks for setting up the Big Oppurtunity. I've been a trainee for a few weeks
+                    now
+                    and
+                    I'm already having lots of extra talents and improving my skill.</p>
+            </div>
+        </a>
+        <a href="#">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.PZsMLTIgXaEsdCA0VjTo7gHaLH&pid=Api&P=0&h=180"
+                alt="Kimberly Smith">
+            <div class="text-content">
+                <p><span class="user">Kimberly Smith</span> commented on your information</span></p>
+                <p class="time">1 week ago</p>
+            </div>
+            <img src="https://static.ambitionbox.com/assets/v2/images/rs:fit:1280:960:false:false/bG9jYWw6Ly8vbG9nb3Mvb3JpZ2luYWxzL2dvd3RoYW1yYWotbmV0d29yay5qcGc.png"
+                alt="Chess club" class="picture">
+        </a>
+        <a href="#">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.tL1dKiGcEl_zmAltMAiCDQHaHa&pid=Api&P=0&h=180"
+                alt="Nathan Peterson">
+            <div class="text-content">
+                <p><span class="user">Nathan Peterson</span> reacted to your recent post <span class="activity">5
+                        days webinar involving strategies to increase your skills efficiency</span></span></p>
+                <p class="time">2 weeks ago</p>
+            </div>
+        </a>
+        <a href="#">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.cbJbj8PThsP7Sj9xSdRG-wHaE7&pid=Api&P=0&h=180" alt="Anna Kim">
+            <div class="text-content">
+                <p><span class="user">Anna Kim</span> left the group <span class="activity chess">GR Network</span></p>
+                <p class="time">2 weeks ago</p>
+            </div>
+        </a>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
